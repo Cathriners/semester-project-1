@@ -1,0 +1,9 @@
+:root {
+  --primary-color: black;
+  --secondary-color: #62389d;
+  --button-color: #b0401b;
+  --text-color: white;
+  --hover-color: #f65f5f;
+  --heading-font: "Instrument Sans"
+  --max-width: 1100px;
+}
