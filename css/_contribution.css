@@ -1,0 +1,16 @@
+.support-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.support-section div {
+  flex: 1;
+}
+
+.support-section img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 10px;
+}

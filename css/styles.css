@@ -1,3 +1,6 @@
 @import url(_variables.css);
 @import url(_base.css);
 @import url(_home.css);
+@import url(_contact.css);
+@import url(_contribution.css);
+@import url(_footer.css);

@@ -13,6 +13,11 @@ main {
   margin: 20px;
 }
 
+main h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .container {
   background-color: var(--primary-color);
   font-size: 1.2rem;
@@ -46,6 +51,10 @@ main {
   margin: 0 10px;
 }
 
+ul li a.active {
+  color: var(--hover-color);
+  font-weight: bold;
+}
 .navbar a {
   color: var(--text-color);
   font-size: 10x;
