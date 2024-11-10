@@ -4,6 +4,8 @@
   --button-color: #b0401b;
   --text-color: white;
   --hover-color: #f65f5f;
-  --heading-font: "Instrument Sans"
+  --mobile-menu-color: #333;
+  --heading-font: "Instrument Sans", sans-serif;
+  --body-font: "Instrument Sans", sans-serif;
   --max-width: 1100px;
 }

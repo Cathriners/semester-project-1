@@ -1,16 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: "Instrument Sans", sans-serif;
+  font-family: var(--body-font);
   margin: 0;
   padding: 0;
 }
 
 main {
-  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
 }
 
 main h1 {
@@ -18,74 +16,13 @@ main h1 {
   margin-bottom: 20px;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 .container {
   background-color: var(--primary-color);
   font-size: 1.2rem;
   font-family: var(--heading-font);
   height: 100px;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  height: 90px;
-  width: 100%;
-  background-color: var(--primary-color);
-}
-
-.navbar ul {
-  display: flex;
-  margin-left: 600px;
-}
-
-.container .navbar {
-  justify-content: space-between;
-}
-
-.navbar ul li {
-  list-style-type: none;
-}
-
-.container .navbar ul li {
-  padding: 10px;
-  margin: 0 10px;
-}
-
-ul li a.active {
-  color: var(--hover-color);
-  font-weight: bold;
-}
-.navbar a {
-  color: var(--text-color);
-  font-size: 10x;
-  text-decoration: none;
-  padding: 15px;
-}
-
-.navbar a:hover {
-  color: var(--hover-color);
-}
-
-.logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: var(--text-color);
-  font-weight: bold;
-  font-size: 25px;
-  padding-left: 10px;
-  display: block;
-  line-height: 1.2;
-  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-
-@media screen and (min-width: 390px) and (max-width: 767px) {
-  .container {
-    height: 100%;
-  }
-
-  .container .navbar {
-    flex-direction: column;
-  }
 }

@@ -7,7 +7,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Form fields */
 .contact-form label {
   display: block;
   margin-bottom: 8px;
@@ -22,4 +21,34 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
+}
+
+.contact-visit-container {
+  display: flex;
+  gap: 2rem; /* Space between sections */
+  flex-wrap: wrap; /* Allows sections to wrap on smaller screens */
+}
+
+.contact-section,
+.visit {
+  flex: 1; /* Both sections take equal width */
+  min-width: 300px; /* Minimum width to prevent items from shrinking too much */
+}
+
+.contact-section {
+  max-width: 600px; /* Control width of contact form */
+}
+
+.visit {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 10px;
+  min-width: 300px;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }

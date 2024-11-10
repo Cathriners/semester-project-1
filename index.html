@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
     <meta
       name="description"
-      content="Description of Nidaros Science Museum here"
+      content="Discover science and innovation at the Nidaros Science Museum, where engaging exhibits and events inspire all ages to explore."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +20,24 @@
       href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Nidaros Science Museum</title>
   </head>
   <body>
@@ -27,6 +45,8 @@
       <div class="containter">
         <div class="navbar">
           <a href="/" class="logo">NIDAROS<br />SCIENCE<br />MUSEUM</a>
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" class="menu-icon">&#9776;</label>
           <nav>
             <ul>
               <li><a href="" class="active">Home</a></li>
@@ -40,38 +60,45 @@
       </div>
     </header>
     <main>
-      <h1 class="headline">EXPLORE TOGETHER</h1>
+      <h1>EXPLORE TOGETHER</h1>
       <section>
         <div>
           <p>
             Come join us at the Nidaros Science Museum where we're committed to
             making science accessible to all.
           </p>
-          <img
-            src="images/billetto-editorial-334686.jpg"
-            alt="A boy painting wearing VR-glasses"
-          />
-          <button>Explore</button>
+          <a href="/exhibitions/index.html">
+            <img
+              src="images/billetto-editorial-334686.jpg"
+              alt="A boy painting wearing VR-glasses"
+            />
+
+            <button>Explore</button>
+          </a>
         </div>
         <div>
           <p>
             Are you a young person looking to learn more about science? Come on
             down to our museum, there's plenty to see and do.
           </p>
-          <img
-            src="images/scientific-2040795_1280.jpg"
-            alt="A young girl in a labcoat exploring inside a maskin"
-          />
-          <button>Explore</button>
+          <a href="/exhibitions/index.html">
+            <img
+              src="images/scientific-2040795_1280.jpg"
+              alt="A young girl in a labcoat exploring inside a maskin"
+            />
+            <button>Explore</button>
+          </a>
         </div>
       </section>
       <section>
         <div class="special-events">
           <h2>SPECIAL EVENTS AND EXHIBITIONS</h2>
-          <img
-            src="images/celso-405219.jpg"
-            alt="Different moons in line, from fullmoon to halfmoon."
-          />
+          <a href="/exhibitions/index.html">
+            <img
+              src="images/celso-405219.jpg"
+              alt="Different moons in line, from fullmoon to halfmoon."
+            />
+          </a>
         </div>
       </section>
       <section>
@@ -124,21 +151,25 @@
           <h4>Info</h4>
           <ul class="links">
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Contributions</a></li>
+            <li><a href="/contact/index.html">Contact us</a></li>
+            <li><a href="/contribution/index.html">Contributions</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Explore</h4>
           <ul class="links">
-            <li><a href="#">Exhibitions</a></li>
+            <li><a href="/exhibitions/index.html">Exhibitions</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4>Legal</h4>
           <ul class="links">
-            <li><a href="#">Terms and Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li>
+              <a href="/terms-and-conditions/index.html"
+                >Terms and Conditions</a
+              >
+            </li>
+            <li><a href="/privacy-policy/index.html">Privacy Policy</a></li>
           </ul>
         </div>
         <a href="/" class="logo">NIDAROS<br />SCIENCE<br />MUSEUM</a>
