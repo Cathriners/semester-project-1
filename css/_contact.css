@@ -25,18 +25,18 @@
 
 .contact-visit-container {
   display: flex;
-  gap: 2rem; /* Space between sections */
-  flex-wrap: wrap; /* Allows sections to wrap on smaller screens */
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .contact-section,
 .visit {
-  flex: 1; /* Both sections take equal width */
-  min-width: 300px; /* Minimum width to prevent items from shrinking too much */
+  flex: 1;
+  min-width: 300px;
 }
 
 .contact-section {
-  max-width: 600px; /* Control width of contact form */
+  max-width: 600px;
 }
 
 .visit {

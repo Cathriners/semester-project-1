@@ -77,7 +77,6 @@
   background-color: var(--hover-color);
 }
 
-/* Responsive Styling */
 @media (max-width: 768px) {
   .footer-row {
     flex-direction: column;
