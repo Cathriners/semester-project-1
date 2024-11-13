@@ -89,3 +89,7 @@ ul li a.active {
     display: block;
   }
 }
+
+nav:focus-within ul {
+  display: none;
+}
